@@ -186,8 +186,8 @@ ul,ol{padding:0;list-style:none}
 /* ---------- floor plan ---------- */
 .plan-wrap{position:relative;z-index:1;margin-top:clamp(40px,6vw,80px);padding-top:clamp(24px,3vw,40px);border-top:var(--line) solid var(--ink);display:grid;gap:var(--gap)}
 @media (min-width:900px){.plan-wrap{grid-template-columns:1fr 300px;gap:clamp(24px,4vw,56px);align-items:start}}
-.plan-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px}
-.plan{display:block;min-width:820px;width:100%;height:auto;font-family:var(--display);font-weight:700}
+.plan-scroll{padding-bottom:6px}
+.plan{display:block;width:100%;height:auto;font-family:var(--display);font-weight:700}
 .pl-shell{fill:var(--paper-2);stroke:var(--ink);stroke-width:70}
 .pl-wall{stroke:var(--ink);stroke-width:70;fill:none;stroke-linecap:square}
 .pl-thin{stroke:var(--ink);stroke-width:26;fill:none;stroke-linejoin:round;stroke-linecap:round}
@@ -199,6 +199,17 @@ ul,ol{padding:0;list-style:none}
 .pl-lab text{fill:var(--earth);font-size:215px;text-anchor:middle;dominant-baseline:central;font-variation-settings:"wdth" 90,"opsz" 12}
 .pl-dim{stroke:var(--ink-70);stroke-width:18;fill:none}
 .pl-dimt{fill:var(--ink);font-size:240px;text-anchor:middle;font-family:var(--body);font-style:italic;font-weight:500}
+.pl-zone{fill:var(--paper);fill-opacity:.4;stroke:var(--ink);stroke-width:26;stroke-dasharray:130 90}
+.pl-bamboo{stroke:var(--leaf);stroke-width:36;stroke-linecap:round}
+.pl-ac{fill:var(--paper);stroke:var(--ink);stroke-width:26}
+.pl-deck{fill:var(--paper-2);fill-opacity:.6;stroke:var(--ink-70);stroke-width:26}
+.pl-board{stroke:var(--ink-30);stroke-width:18}
+.pl-post{fill:var(--ink)}
+.pl-zt{fill:var(--ink);font-size:300px;text-anchor:middle;font-weight:800;letter-spacing:30px;font-variation-settings:"wdth" 80,"opsz" 40}
+.pl-zt--p{font-size:260px}
+.pl-zs{fill:var(--ink-70);font-size:230px;text-anchor:middle;font-family:var(--body);font-style:italic;font-weight:500}
+.plan--portrait{display:none}
+@media (max-width:759px){.plan--landscape{display:none}.plan--portrait{display:block}}
 .plan-side .num{margin-bottom:10px}
 .legend{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px 16px;margin-top:18px}
 .legend li{display:flex;align-items:center;gap:10px;font-size:.95rem;font-style:italic}
