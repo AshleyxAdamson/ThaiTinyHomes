@@ -216,6 +216,8 @@ ul,ol{padding:0;list-style:none}
 .pl-zt{fill:var(--ink);font-size:300px;text-anchor:middle;font-weight:800;letter-spacing:30px;font-variation-settings:"wdth" 80,"opsz" 40}
 .pl-zt--p{font-size:260px}
 .pl-zs{fill:var(--ink-70);font-size:230px;text-anchor:middle;font-family:var(--body);font-style:italic;font-weight:500}
+.pl-furn{stroke:var(--ink);stroke-width:26;fill:var(--paper-2);stroke-linejoin:round}
+.pl-cap{fill:var(--ink-70);font-size:200px;text-anchor:middle;font-family:var(--display);font-weight:800;letter-spacing:8px;font-variant-caps:small-caps}
 .plan--portrait{display:none}
 @media (max-width:759px){.plan--landscape{display:none}.plan--portrait{display:block}}
 .plan-side .num{margin-bottom:10px}
