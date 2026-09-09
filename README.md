@@ -10,4 +10,6 @@ Static site, no build step. Netlify publishes the repo root.
 
 Preview locally: `python3 -m http.server 8080` then open http://localhost:8080
 
+Deploy: rsync from the prototype (`Dropbox/* ProjectsCoding/00.Projects/007.TH-Capsules-Landing/prototype`), then `python3 stamp.py` to content-hash `assets/{img,video,fonts}` and repoint references in `index.html`/`styles.css`, then commit and push.
+
 Copy and open questions are tracked in the project brief and claims register (Dropbox: `007.TH-Capsules-Landing/Docs`).

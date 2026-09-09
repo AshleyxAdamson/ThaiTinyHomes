@@ -1,7 +1,7 @@
 /* Krabi tiny home. Zine direction: putty paper, ink rules, condensed caps, italic serif accents. */
-@font-face{font-family:"Bricolage Grotesque";src:url("assets/fonts/bricolage-normal-latin.woff2") format("woff2");font-weight:700 800;font-stretch:75% 90%;font-style:normal;font-display:swap}
-@font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-normal-latin.woff2") format("woff2");font-weight:300 600;font-style:normal;font-display:swap}
-@font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.woff2") format("woff2");font-weight:300 600;font-style:italic;font-display:swap}
+@font-face{font-family:"Bricolage Grotesque";src:url("assets/fonts/bricolage-normal-latin.17503419.woff2") format("woff2");font-weight:700 800;font-stretch:75% 90%;font-style:normal;font-display:swap}
+@font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-normal-latin.bc06b083.woff2") format("woff2");font-weight:300 600;font-style:normal;font-display:swap}
+@font-face{font-family:Fraunces;src:url("assets/fonts/fraunces-italic-latin.c47d85d6.woff2") format("woff2");font-weight:300 600;font-style:italic;font-display:swap}
 :root{
   --paper:#e2dbc6;
   --paper-2:#d6cfb8;
