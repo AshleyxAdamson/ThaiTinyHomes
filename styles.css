@@ -71,6 +71,7 @@ ul,ol{padding:0;list-style:none}
 @media (min-width:760px){.hero__media{grid-template-columns:1fr 1fr}.media--hero{aspect-ratio:5/6}}
 @media (max-width:759px){.media--hero-2{display:none}}
 .media--tall{aspect-ratio:3/4}
+.media--deck video{object-position:50% 58%}
 .media--halftone img{filter:grayscale(1) contrast(1.25) brightness(1.05) sepia(.35)}
 .media--halftone::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;mix-blend-mode:multiply;opacity:.55;background:radial-gradient(circle,var(--ink) 0 .7px,transparent 1px) 0 0/4px 4px}
 .badge{position:absolute;right:18px;bottom:18px;z-index:2;display:inline-flex;align-items:center;gap:.5em;padding:1.1em 2em;border-radius:50%;background:rgba(28,24,17,.72);color:var(--white);font-family:var(--display);font-variation-settings:"wdth" 82,"opsz" 14;font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;transform:rotate(-6deg);backdrop-filter:blur(3px);transition:transform .15s}
